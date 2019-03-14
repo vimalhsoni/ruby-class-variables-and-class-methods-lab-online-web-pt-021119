@@ -39,6 +39,7 @@ def self.artist_count
     new_hash = {:artist => @@count}
     # new_hash[artist] = @@count
   end
+  new_hash
 end
 
 end
