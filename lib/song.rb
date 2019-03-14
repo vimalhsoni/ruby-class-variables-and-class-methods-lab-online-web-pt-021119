@@ -8,7 +8,7 @@ class Song
     @name = name
     @@artist = []
     @artist = artist
-    @@artist.push(@artist)
+    @@artist.push(artist)
     @genre = genre
     @@genre = []
     @@genre.push(genre)
