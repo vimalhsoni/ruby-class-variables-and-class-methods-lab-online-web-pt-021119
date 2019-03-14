@@ -8,7 +8,7 @@ class Song
     @name = name
     @@artist = []
     @artist = artist
-    @@artist.push(artist)
+    @@artist.push(@artist)
     @genre = genre
     @@genre = []
     @@genre.push(genre)
@@ -20,12 +20,11 @@ def count
 end
 
 def genres
-
+@@genres
 end
 
 def artists
-  @@artists = []
-  @@artists.push(@artist)
+@@artists
 end
 
 end
