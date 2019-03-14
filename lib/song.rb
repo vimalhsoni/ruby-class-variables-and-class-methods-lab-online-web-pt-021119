@@ -28,15 +28,14 @@ def self.artists
 end
 
 def self.genre_count
-  new_hash = {}
-  @@genres.each do |genres|
-    new_hash[genres] << @@count
+  @@genres.each do |artist|
+    new_hash = {"artist" => @@count}
   end
 end
 
 def self.artist_count
   @@artists.each do |artist|
-    new_hash = {:artist => @@count}
+    new_hash = {"artist" => @@count}
   end
 end
 
