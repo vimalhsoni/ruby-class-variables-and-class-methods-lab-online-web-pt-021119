@@ -30,7 +30,7 @@ end
 def self.genre_count
   new_hash = {}
   @@genres.each do |genres|
-    new_hash[@@count] = genres
+    new_hash[genres] << @@count
   end
 end
 
