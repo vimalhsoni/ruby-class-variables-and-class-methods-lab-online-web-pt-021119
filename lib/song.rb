@@ -14,7 +14,7 @@ class Song
     # @@genre.push(@genre)
     @@count += 1
     @@genres.push(genre)
-    @@artist.push(artist)
+    @@artists.push(artist)
   end
 
 def self.count
