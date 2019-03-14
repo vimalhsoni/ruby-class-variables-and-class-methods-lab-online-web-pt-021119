@@ -28,9 +28,14 @@ def self.artists
 end
 
 def self.genre_count
-  @@genres.each do |artist|
-    new_hash = {"artist" => @@count}
+  genre_count = {}
+  @@genres.each do |genre|
+    if genre_count[genre]
+      genre_count += 1
+    else
+      genre_count[genre] = 1
   end
+  genre_count
 end
 
 def self.artist_count
