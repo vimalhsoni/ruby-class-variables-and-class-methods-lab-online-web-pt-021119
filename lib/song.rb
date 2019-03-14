@@ -23,7 +23,7 @@ def genres
 @@genres
 end
 
-def artists
+def artist_count
 @@artists
 end
 
