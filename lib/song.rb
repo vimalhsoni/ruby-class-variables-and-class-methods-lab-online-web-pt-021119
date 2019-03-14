@@ -18,7 +18,7 @@ def count
 end
 
 def genres
-  
+
 end
 
 def artists
